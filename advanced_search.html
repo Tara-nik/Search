@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="gstyle.css">
+    </head>
+    <body>
+        
+       
+        <div id="header">
+            <a href="index.html">Google Search</a>
+            <a href="image_search.html">Google Image</a>
+        </div>
+
+        <div class="search-engine">
+            <img src="google-logo.png" alt="Google Logo" class="logo" >
+            <form action="https://www.google.com/search" method="get">
+                <label>All these words:</label>
+                <input type="text" name="as_q" placeholder="Type the important words" class="search-bar">
+                <div></div>
+                
+                <label>This exact word or phrase:</label>
+                <input type="text" name="as_epq" placeholder="Put exact words in quotes" class="search-bar">
+                <div ></div>
+                
+                <label>Any of these words:</label>
+                <input type="text" name="as_oq" placeholder="Type OR between all the words you want" class="search-bar">
+                <div></div>
+                
+                <label>None of these words:</label>
+                <input type="text" name="as_eq" placeholder="Put a minus sign just before words that you don't want" class="search-bar">
+                <div></div>
+                
+                <input type="submit" class="search-btn" value="Google Advanced Search">
+            </form>
+        </div>
+    </body>
+</html>
